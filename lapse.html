@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en" manifest="cache.appcache">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ps4 lapse</title>
+<style>
+  html, body {
+    margin: 0;
+    padding: 0;
+    background: #000000;
+    color: #ffffff;
+    font: 14px/1.5 "Segoe UI", system-ui, sans-serif;
+    text-transform: lowercase;
+  }
+  #container {
+    max-width: 480px;
+    margin: 80px auto;
+    padding: 24px;
+  }
+  #brand {
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: .2em;
+    margin-bottom: 32px;
+    opacity: 0.5;
+  }
+  #wrap {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+  #state {
+    font-size: 20px;
+    font-weight: 600;
+    letter-spacing: -0.01em;
+  }
+  #out {
+    white-space: pre-wrap;
+    font: 12px/1.5 Consolas, monospace;
+    background: #000000;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 6px;
+    padding: 12px;
+    max-height: 300px;
+    overflow-y: auto;
+    opacity: 0.7;
+    text-transform: none;
+  }
+  .ok { color: #ffffff; }
+  .bad { color: #ffffff; text-decoration: underline; }
+  .warn { color: #ffffff; }
+</style>
+</head>
+<body>
+<div id="container">
+  <div id="brand">mansoor0x</div>
+  <div id="wrap">
+    <div id="state">loading lapse chain...</div>
+    <div id="out"></div>
+  </div>
+</div>
+<script type="module">import "./chain_lapse.js";</script>
+</body>
+</html>
