@@ -1,5 +1,0 @@
-11:40:38	KPATCH-BLOB	NOT LOADED (patches/900.bin)
-11:40:38	PAYLOAD-BLOB	bytes=290016 head=e9 36 0e 00 00 f3 0f 1e fa 53 48 83 entry=e9-jmp-rel32
-11:40:38	FW	9.00
-11:40:38	POST-CLEANUP	no kv probe was installed
-11:40:38	PROOF-SUMMARY-FINAL	pass=0 fail=0 (incl
